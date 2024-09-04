@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Futura;
+    font-weight: 400;
+    font-style: normal;
+    src: local("Futura"),
+         url(../fonts/Futura\ PT_Medium.woff) format("woff"),
+         url(../fonts/Futura\ PT_Cond\ Medium.woff2) format("woff"2),
+         url(../fonts/Futura\ PT_Medium.eot) format("eot");
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family:Futura;
+    font-weight: 700;
+    font-style: normal;
+    src: local("Futura"),
+         url(../fonts/futura-pt-bold-589e44b6aacd3.woff) format("woff"),
+         url(../fonts/futura-pt-bold-589e44b6aacd3.eot) format("eot");
+    font-display: swap;
+}
+
+@font-face {
+    font-family:Futura Cond;
+    font-weight: 400;
+    font-style: normal;
+    src: local("Futura Cond"),
+         url(../fonts/Futura\ PT_Cond\ Medium.woff) format("woff"),
+         url(../fonts/Futura\ PT_Cond\ Medium.woff2) format("woff2"),
+         url(../fonts/Futura\ PT_Cond\ Medium.eot) format("eot");
+    font-display: swap;
+}

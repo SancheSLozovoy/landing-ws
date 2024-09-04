@@ -1,0 +1,136 @@
+html, body{
+    font-family: 'Futura';
+    color: #637899;
+    scroll-behavior: smooth;
+}
+
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.container{
+    margin: 0px auto;
+    max-width: 1176px;
+    height: 100%;
+}
+
+.header__content{
+    max-width: 488px;
+    max-height: 790px;
+    border: 1px solid #DBE3F0;
+    border-radius: 0  0 20px 20px;
+    box-shadow: 0px 20px 40px 0px #0000000F;
+    position: relative;
+}
+
+.header__body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__info{
+    margin: 0px 48px;
+    margin-bottom: 48px;
+}
+
+.header__button-container{
+    margin: 0px 48px;
+    margin-bottom: 96px;
+}
+
+.header__title{
+    font-family: Futura Cond;
+    font-size: 64px;
+    text-align: center;
+    color: #27303F;
+    font-weight: 400;
+    line-height: 64px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.header__p{
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.25%;
+    font-weight: 400;
+}
+
+.header__name{
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: 96px;
+}
+
+
+.header__content{
+    display: flex;
+    flex-direction: column;
+}
+
+.header__logo {
+    position: absolute; 
+    top: 46px;         
+    right: 700px;       
+    z-index: 1;
+}
+
+.header__image{
+    margin-top: 80px;
+}
+
+.header__button {
+    width: 392px;
+    height: 56px;
+    border: 2px solid #56B8FF;
+    border-radius: 12px;
+    color: #56B8FF;
+    font-size: 18px;
+    letter-spacing: 4%;
+    line-height: 20px;
+    font-weight: 800;
+    text-align: center;
+    background: none;
+    padding: 8px 0px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.header__button-container:last-child{
+    margin-bottom: 96px;
+}
+
+.header__time{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.25%;
+    text-align: center;
+    font-weight: 40;
+}
+
+.header__href-container{
+    margin: 0 32px;
+    padding: 24px;
+    text-align: center;
+}
+
+.header__arc{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -12;
+}
+
+.header__link-item{
+    margin-bottom: 5px;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.25%;
+    font-weight: 500;
+}
