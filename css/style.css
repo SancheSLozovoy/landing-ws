@@ -16,6 +16,10 @@ html, body{
     height: 100%;
 }
 
+.header{
+    margin-bottom: 96px;
+}
+
 .header__content{
     max-width: 488px;
     max-height: 790px;
@@ -52,6 +56,7 @@ html, body{
 }
 
 .header__p{
+    font-family: Futura Book;
     font-size: 20px;
     line-height: 24px;
     text-align: center;
@@ -106,6 +111,7 @@ html, body{
 }
 
 .header__time{
+    font-family: Futura Book;
     font-size: 18px;
     line-height: 22px;
     letter-spacing: 0.25%;
@@ -134,3 +140,267 @@ html, body{
     letter-spacing: 0.25%;
     font-weight: 500;
 }
+
+/* ============================================main============================================= */
+
+.partners__titles{
+    color: #27303F;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31.68px;
+    letter-spacing: 0.25%;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+
+
+.partners__ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 56px;
+}
+
+.partners__ul-item{
+    margin-right: 72px;
+}
+
+.partners__ul-item:last-child{
+    margin-right: 0px;
+}
+
+.main__partners{
+    margin-bottom: 144px;
+}
+
+.main__pain{
+    margin-bottom: 144px;
+}
+
+.pain__title{
+    color: #27303F;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 800;
+    letter-spacing: 0.25%;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+
+.pain__grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 96px;
+}
+
+.pain__grid-item{
+    border: 1px solid #DBE3F0;
+    border-radius: 20px;
+    width: 376px;
+    height: 272px;
+    margin-right: 24px;
+    position: relative;
+}
+
+.pain__grid-item:last-child{
+    margin: 0px;
+}
+
+.pain__grid-item--small{
+    border: 1px solid #DBE3F0;
+    border-radius: 20px;
+    width: 276px;
+    height: 272px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.pain__grid-item--big{
+    border: 1px solid #DBE3F0;
+    border-radius: 20px;
+    border: 1px solid #DBE3F0;
+    width: 476px;
+    height: 272px;
+    position: relative;
+}
+
+.pain__text{
+    font-size: 24px;
+    line-height: 31.68px;
+    letter-spacing: 0.25%;
+    font-weight: 500;
+    padding: 32px;
+}
+
+.pain__smile{
+    position: absolute;
+    bottom: 24px;
+    right: 24px;
+}
+
+.pain__footer-title{
+    color: #27303F;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.68px;
+    letter-spacing: 0.25%;
+    text-align: center;
+}
+
+
+.main__features{
+    padding-top: 144px;
+    background-color: #F9FAFD;
+    padding-bottom: 144px;
+    margin-bottom: 144px;
+}
+
+.features__info{
+    
+    margin-bottom: 80px;
+    
+}
+
+.feature__title{
+    color: #27303F;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.25%;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.features__p{
+    font-family: Futura Book;
+    color: #637899;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.25%;
+    text-align: center;
+}
+
+.features__list {
+    display: flex;
+}
+
+.features__list-item {
+    width: 376px; 
+    height: 280px; 
+    border: 1px solid #DBE3F0;
+    border-radius: 20px;
+    box-shadow: 0px 20px 40px 0px #0000000F;
+    margin-right: 24px; 
+    padding: 0 0 20px 20px;
+    padding-right: 20px;
+}
+
+
+.features__smile{
+    margin-top: 48px;
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.features__text{
+    color: #27303F;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.25%;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 72px;
+}
+
+
+
+.features__list:last-child{
+    margin-right: 0px;
+}
+
+.members__grid-member{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.members__title{
+    color: #27303F;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 800;
+    letter-spacing: 0.25%;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.members__p{
+    font-family: Futura Book;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.25%;
+    width: 512px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.members__info{
+    margin-bottom: 80px;
+}
+
+.members__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-auto-rows: min-content; 
+    grid-row-gap: 56px;  
+    grid-column-gap: 24px; 
+}
+.member__image-box {
+    height: 196px;
+    width: 196px;
+    border: 1px solid #DBE3F0;
+    box-shadow: 0px 20px 40px 0px #0000000F;
+    border-radius: 50px;
+    margin-bottom: 24px;
+}
+
+.member__image {
+    height: 196px;
+    width: 196px;
+    border: 1px solid #DBE3F0;
+    box-shadow: 0px 20px 40px 0px #0000000F;
+    border-radius: 50px;
+}
+
+.member__name{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.25%;
+    text-align: center;
+    margin-bottom: 4px;
+}
+.member__post{
+    font-family: Futura Book;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.25%;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.member__company{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.5%;
+    text-align: center;
+}
+

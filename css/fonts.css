@@ -4,7 +4,7 @@
     font-style: normal;
     src: local("Futura"),
          url(../fonts/Futura\ PT_Medium.woff) format("woff"),
-         url(../fonts/Futura\ PT_Cond\ Medium.woff2) format("woff"2),
+         url(../fonts/Futura\ PT_Cond\ Medium.woff2) format("woff2"),
          url(../fonts/Futura\ PT_Medium.eot) format("eot");
     font-display: swap;
 }
@@ -28,5 +28,16 @@
          url(../fonts/Futura\ PT_Cond\ Medium.woff) format("woff"),
          url(../fonts/Futura\ PT_Cond\ Medium.woff2) format("woff2"),
          url(../fonts/Futura\ PT_Cond\ Medium.eot) format("eot");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Futura Book;
+    font-weight: 400;
+    font-style: normal;
+    src: local("Futura"),
+         url(../fonts/Futura\ PT_Book.woff) format("woff"),
+         url(../fonts/Futura\ PT_Cond\ Medium.woff2) format("woff2"),
+         url(../fonts/Futura\ PT_Book.eot) format("eot");
     font-display: swap;
 }
