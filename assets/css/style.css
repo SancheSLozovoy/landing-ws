@@ -26,10 +26,7 @@ body {
     text-align: left;    
 }
 
-.text
-
 .text-black{
-    font-family: Futura Demi;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
@@ -141,13 +138,14 @@ body {
 }
 
 .header__title {
+    font-family: Futura Cond;
     font-size: 64px;
     text-align: center;
     color: #27303F;
     font-weight: 400;
     line-height: 64px;
-    text-transform: uppercase;
     margin-bottom: 24px;
+    text-transform: uppercase;
 }
 
 
